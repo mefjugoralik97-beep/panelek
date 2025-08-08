@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-gray-50 text-gray-800 font-sans; }
+
+.header {
+  @apply bg-white shadow px-4 py-3 flex items-center justify-between;
+}
+.sidebar {
+  @apply bg-white w-64 p-4 shadow min-h-screen;
+}
+.card { @apply bg-white rounded-xl shadow p-4; }
+.table th { @apply bg-primary text-white p-3 text-left; }
+.table td { @apply p-3 border-b border-gray-200; }
+
+.btn { @apply inline-flex items-center px-3 py-1 rounded-md text-white bg-primary hover:bg-blue-600; }
